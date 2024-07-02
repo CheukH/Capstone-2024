@@ -45,4 +45,7 @@ The proposed dataset is from UC Irvine Machine Learning Repository. It has 8760 
 - Solar radiation – Solar radiation (in MJ/m2) at each hour 
 - Rainfall – Rainfall (in mm) at each hour 
 - Snowfall – Snowfall (in cm) at each hour 
-- Seasons – The season during which the data was collected (Winter/ Spring/ Summer/Autumn) 
+- Seasons – The season during which the data was collected (Winter/ Spring/ Summer/Autumn)
+- Holiday – whether the day was a holiday (Holiday/No holiday) 
+- Functional Day – whether the day was a functional day (Yes/ No) 
+
