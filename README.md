@@ -24,7 +24,7 @@ The main purpose of this project is to analyze weather data, date information, a
 - Exploratory data analysis (EDA)
 - Application of K-prototypes algorithm
 - Application of Four regression models
-- Code: [Link](https://github.com/CheukH/Capstone-2024/blob/main/Capstone_Bike_Initial_Results_and_Code.ipynb)
+- Code: ([Link](https://github.com/CheukH/Capstone-2024/blob/main/Revised_Capstone_Bike_Initial_Results_and_Code.ipynb))
 
 
 
