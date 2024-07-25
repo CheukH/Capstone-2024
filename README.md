@@ -1,5 +1,5 @@
 ## Capstone Project: Seoul Bike Sharing Demand
-The main purpose of this project is to analyze weather data, date information, and the count of rented bikes per hour obtained from the bike sharing systems in Seoul to uncover the behaviors of rental bike users and predict rental bike demand. In this project, clustering techniques (K-prototypes algorithm) are employed to group data based on their similarity or closeness to each other to explore the patterns of rental behavior. Besides, four regression models, including Gradient Boosting Machine (GBM), CUBIST Model,  Multi Layer Perceptron (MLP), and Ridge Regression are developed to predict the rental bike demand. R-squared (R²), Mean Squared Error (MSE), and Mean Absolute Error (MAE) are used for evaluating the models. A comprehensive literature review has been conducted ([Link to the Literature Review](https://docs.google.com/document/d/1sqTORA32Se4JmtVdVK5740BeO6WkfOU1EqcC-7tXJQg/edit?usp=sharing))
+The main purpose of this project is to analyze weather data, date information, and the count of rented bikes per hour obtained from the bike sharing systems in Seoul to uncover the behaviors of rental bike users and predict rental bike demand. In this project, clustering techniques (K-prototypes algorithm) are employed to group data based on their similarity or closeness to each other to explore the patterns of rental behavior. Besides, four regression models, including Gradient Boosting Machine (GBM), CUBIST Model,  Multi Layer Perceptron (MLP), and Ridge Regression are developed to predict the rental bike demand. R-squared (R²), Mean Squared Error (MSE), and Mean Absolute Error (MAE) are used for evaluating the models.
 
 
 
@@ -8,7 +8,7 @@ The main purpose of this project is to analyze weather data, date information, a
 - Data preprocessing was performed for clustering techniques (feature engineering, and feature selection), and the development of regression models (feature selection, encoding, and scaling)
 - The K-prototypes algorithm from the Kmodes package was chosen to explore the usage patterns of rental bike due to its ability to handle both numerical and categorical data
 - Data visualization was used to obtain deep insights into the characteristics of each cluster.
-- Out of the four regression models, MLP has the strongest performance, with the highest R-squared (95%), and the lowest MSE (22390.3) and MAE (87.39).
+- MLP and CUBIST outperform the other models, with MLP having the highest R-squared (95.4%) and lowest MSE (18679.21), and CUBIST having the lowest MAE (77.20)
 
 
 
@@ -24,7 +24,8 @@ The main purpose of this project is to analyze weather data, date information, a
 - Exploratory data analysis (EDA)
 - Application of K-prototypes algorithm
 - Application of Four regression models
-- Code: ([Link](https://github.com/CheukH/Capstone-2024/blob/main/Revised_Capstone_Bike_Initial_Results_and_Code.ipynb))
+- Code: [Link](https://github.com/CheukH/Capstone-2024/blob/main/%20Finalized%20Regression%20Model%20After%20Feature%20Engineering.ipynb) and [Link](https://github.com/CheukH/Capstone-2024/blob/main/Finalized%20EDA%20n%20Rregression%20Models%20Before%20Feature%20Engineering.ipynb)
+
 
 
 
